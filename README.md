@@ -34,6 +34,7 @@
 - [3. Thao tác với tổ chức trong Github](#3)
 - [4. Thao tác với nhánh (branch)](#4)
 - [5. Issues](#5)
+- [6. merge](#6)
 	
 [Tổng kết](#Tongket)
 
@@ -644,6 +645,14 @@ Lúc này tại Repo của người quản trị sẽ thấy một Issue mới, 
 <img src=http://i.imgur.com/fJroMte.png>
 
 Bằng cách tạo issue, bạn có thể đăng các câu hỏi, thắc mắc của mình cho chủ của repo đó.
+
+<a name="6"></a>
+### 6. Merge
+Git Merge là một lệnh dùng để hợp nhất các chi nhánh độc lập thành một nhánh duy nhất trong Git.
+
+Khi sử dụng lệnh hợp nhất trong Git, chỉ có nhánh hiện tại được cập nhật để phản ánh sự hợp nhất, còn nhánh đích sẽ không bị ảnh hưởng. Điều này có nghĩa rằng, Git Merge thường được sử dụng kết hợp với git checkout để chọn nhánh hiện tại và git branch để xóa nhánh nguồn đã lỗi thời.
+- Quay lại nhánh cần merge bằng `git checkout [tên nhánh]`
+- Merge nhánh `git merge [tên nhánh cần merge]`
 
 <a name="Tongket"></a>
 ## Tổng kết 
